@@ -1,0 +1,79 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3216379555890553931",
+      "lastPropertyId": "2:194153170445377288",
+      "name": "Batch",
+      "properties": [
+        {
+          "id": "1:5572229552181391158",
+          "name": "batchId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:194153170445377288",
+          "name": "batchName",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4181199598751354680",
+      "lastPropertyId": "6:3985118527503688748",
+      "name": "Student",
+      "properties": [
+        {
+          "id": "1:2791953466898595884",
+          "name": "studentId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5046867826470555078",
+          "name": "fname",
+          "type": 9
+        },
+        {
+          "id": "3:9151700922502120302",
+          "name": "lname",
+          "type": 9
+        },
+        {
+          "id": "4:4225949155897323787",
+          "name": "username",
+          "type": 9
+        },
+        {
+          "id": "5:2313420607639652636",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "6:3985118527503688748",
+          "name": "batchId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:4366258444657149866",
+          "relationTarget": "Batch"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:4181199598751354680",
+  "lastIndexId": "1:4366258444657149866",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
